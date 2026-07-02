@@ -1,0 +1,22 @@
+.hero-section {
+    color: #ffffff;
+    background-color: #2e2f42;
+    }
+    .hero-title {
+        font-size: 56px;
+        line-height: 1.07143;
+        text-align: center;
+    }
+
+    .hero-button {
+        color: #ffffff;
+        background-color: #4D5AE5;
+        cursor: pointer;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+    }
+
+        .hero-button:hover,
+        .hero-button:focus {
+        background-color:#404bbf;
+        }
