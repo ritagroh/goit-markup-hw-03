@@ -29,6 +29,12 @@ ol {
   padding-left: 0;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .container {
   width: 100%;
   max-width: 1158px;
@@ -51,4 +57,10 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }

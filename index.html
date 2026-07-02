@@ -21,7 +21,7 @@
   </head>
   <body>
     <header id="header">
-      <div class="container">
+      <div class="container header-container">
         <a href="./index.html" class="logo"
           ><span class="logo-span">Web</span>Studio</a
         >
@@ -59,7 +59,7 @@
 
     <main>
       <section id="hero" class="hero-section section">
-        <div class="container">
+        <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
         </div>
@@ -67,7 +67,7 @@
 
       <section id="features" class="features-section section">
         <div class="container">
-          <h2 class="features-title">Our Features</h2>
+          <h2 class="features-title sr-only">Our Features</h2>
 
           <ul class="features-list">
             <li class="features-item">
@@ -94,16 +94,16 @@
             <li class="features-item">
               <h3 class="features-subtitle">Technologies</h3>
               <p class="features-text">
-                Design practice focused on digitalф experiences. We bring forth
-                a deep passion for problem-solving.
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
               </p>
             </li>
           </ul>
         </div>
       </section>
 
-      <section id="team" class="team-section">
-        <div class="container">
+      <section id="team" class="team-section section">
+        <div class="container team-container">
           <h2 class="team-title">Our Team</h2>
 
           <ul class="team-list">
@@ -114,42 +114,53 @@
                 alt="a bearded man in a light blue shirt"
                 width="264"
               />
-              <h3 class="team-subtitle">Mark Guerrero</h3>
-              <p class="team-text">Product Designer</p>
+              <div class="team-content">
+                <h3 class="team-subtitle">Mark Guerrero</h3>
+                <p class="team-text">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
+                class="team-image"
                 src="./images/team-2.jpg"
                 alt="a smiling man in a light blue shirt"
                 width="264"
               />
-              <h3 class="team-subtitle">Tom Ford</h3>
-              <p class="team-text">Frontend Developer</p>
+              <div class="team-content">
+                <h3 class="team-subtitle">Tom Ford</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img
+                class="team-image"
                 src="./images/team-3.jpg"
                 alt="a woman in a pink sweater"
                 width="264"
               />
-              <h3 class="team-subtitle">Camila Garcia</h3>
-              <p class="team-text">Marketing</p>
+              <div class="team-content">
+                <h3 class="team-subtitle">Camila Garcia</h3>
+                <p class="team-text">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img
+                class="team-image"
                 src="./images/team-4.jpg"
                 alt="a man in a gray T-shirt"
                 width="264"
               />
-              <h3 class="team-subtitle">Daniel Wilson</h3>
-              <p class="team-text">UI Designer</p>
+              <div class="team-content">
+                <h3 class="team-subtitle">Daniel Wilson</h3>
+                <p class="team-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
 
       <section id="portfolio" class="portfolio-section section">
-        <div class="container">
+        <div class="container portfolio-container">
           <h2 class="portfolio-title">Our Portfolio</h2>
 
           <ul class="portfolio-list">
@@ -160,8 +171,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Banking App</h3>
-              <p>App</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-subtitle">Banking App</h3>
+                <p>App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -170,8 +183,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Cashless Payment</h3>
-              <p>Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-subtitle">Cashless Payment</h3>
+                <p>Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -180,8 +195,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Meditation App</h3>
-              <p>App</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-subtitle">Meditation App</h3>
+                <p>App</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -190,8 +207,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Taxi Service</h3>
-              <p>Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-subtitle">Taxi Service</h3>
+                <p>Marketing</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -200,8 +219,10 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Screen Illustrations</h3>
-              <p>Design</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+                <p>Design</p>
+              </div>
             </li>
             <li class="portfolio-item">
               <img
@@ -210,15 +231,17 @@
                 width="360"
                 height="300"
               />
-              <h3 class="portfolio-subtitle">Online Courses</h3>
-              <p>Marketing</p>
+              <div class="portfolio-content">
+                <h3 class="portfolio-subtitle">Online Courses</h3>
+                <p>Marketing</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer id="footer" class="footer">
-      <div class="container">
+      <div class="container footer-container">
         <a href="./index.html" class="logo-footer"
           ><span class="span-logo-footer">Web</span>Studio</a
         >

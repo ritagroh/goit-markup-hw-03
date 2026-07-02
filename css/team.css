@@ -8,31 +8,27 @@
     color: #2E2F42;
 }
 
-.team-list {
-    display: flex;
-    gap: 24px;
-}
-
 
 .team-item{
     display: flex;
     flex-direction: column;
     flex-basis: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    
+    border-radius: 0 0 4px 4px;
 }
 .team-subtitle{
     font-weight: 500;
         font-size: 20px;
         color: #2E2F42;
         text-align: center;
-        line-height: 1.2
+        line-height: 1.2;
+        margin-bottom: 8px;
 }
 .team-text{
         text-align: center;
         }
 
-.team-section .container {
+.team-container {
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -45,4 +41,8 @@
 .team-list {
     display: flex;
     gap: 24px;
+}
+
+.team-content {
+    padding: 32px 16px;
 }

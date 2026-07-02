@@ -9,8 +9,10 @@
 }
 
 .features-item {
-  gap: 8px;
-  flex-basis: calc((100% - 72px) / 4);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-basis: calc((100% - 72px) / 4);
     
 }
 
@@ -21,11 +23,11 @@
     color: #434455;
 }
 
-.features-title{
+.sr-only{
     display: none
 }
 
-.features-section .container {
+.hero-container {
     display: flex;
     flex-direction: row;
     align-items: center;

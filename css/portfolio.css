@@ -8,17 +8,17 @@
 
 .portfolio-subtitle {
     font-weight: 500;
-        font-size: 20px;
-line-height: 1.2;
-color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2E2F42;
+    margin-bottom: 8px;
 }
 
-.portfolio-section .container {
+.portfolio-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 10px;
 }
 
 .portfolio-list {
@@ -34,3 +34,9 @@ color: #2E2F42;
     background-color: #FFFFFF;
 }
 
+.portfolio-content {
+    border: 1px solid #E7E9FC;
+    border-top: none;
+    padding: 32px 16px;
+    wrap: wrap;
+}

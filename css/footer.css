@@ -1,5 +1,6 @@
 .footer {
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .logo-footer {
@@ -23,9 +24,10 @@
     max-width: 264px;
 }
 
-.footer .container {
+.footer-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 100px 0;
 }
+
+
