@@ -8,9 +8,18 @@
     color: #2E2F42;
 }
 
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
 
 .team-item{
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
+    
 }
 .team-subtitle{
     font-weight: 500;
@@ -22,3 +31,18 @@
 .team-text{
         text-align: center;
         }
+
+.team-section .container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 72px;
+}
+
+
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}

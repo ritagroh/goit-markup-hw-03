@@ -3,12 +3,34 @@
     font-size: 20px;
     line-height: 1.2;
     color: #2E2F42;
+    display: flex;
+        gap: 24px;
+        padding: 0 15px;
 }
+
+.features-item {
+  gap: 8px;
+  flex-basis: calc((100% - 72px) / 4);
+    
+}
+
 .features-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     color: #434455;
+}
+
+.features-title{
+    display: none
+}
+
+.features-section .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 

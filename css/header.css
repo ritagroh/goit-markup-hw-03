@@ -7,6 +7,7 @@
     text-decoration: none;   
     font-weight: 700;
     font-family: "Raleway", sans-serif;
+
 }
 
 .logo .logo-span{
@@ -35,3 +36,23 @@
 .contacts-list .contacts-link:focus {
     color: #404bbf;
 }
+
+.nav-list {
+    margin-left: 76px;
+    display: flex;
+    gap: 40px;
+    padding: 24px 340px 24px 0;
+}
+
+.contacts-list {
+    display: flex;
+    gap: 40px;
+}
+
+header .container {
+display: flex;
+align-items: center;
+border-bottom: 1px solid #e7e9fc;
+padding: 0 15px;
+}
+
