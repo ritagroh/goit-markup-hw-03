@@ -1,7 +1,7 @@
 .hero-section {
     color: #ffffff;
     background-color: #2e2f42;
-    
+    padding: 188px 0;
     }
     .hero-title {
         font-size: 56px;
@@ -19,7 +19,6 @@
         cursor: pointer;
         font-weight: 500;
         letter-spacing: 0.04em;
-        max-width: 169px;
         padding: 16px 32px;
         border-radius: 4px;
         white-space: nowrap;
@@ -31,10 +30,10 @@
         background-color:#404bbf;
         }
 
-        .hero-section .container {
+        .hero-container {
          display: flex;
          flex-direction: column;
          align-items: center;
          justify-content: center;
-        gap: 48px;
+         gap: 48px;
         }
